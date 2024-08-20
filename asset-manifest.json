@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.fbc021b9.css",
+    "main.css": "/static/css/main.fddb2d44.css",
     "main.js": "/static/js/main.a92047c2.js",
     "static/media/totoro_smile.jpg": "/static/media/totoro_smile.e7d5564cec7dc77bd86a.jpg",
     "static/media/totoro_wait.jpg": "/static/media/totoro_wait.75e9109efcc9b76007ed.jpg",
     "static/media/blue_background.jpg": "/static/media/blue_background.dd715ca030fcd4827fcc.jpg",
     "index.html": "/index.html",
-    "main.fbc021b9.css.map": "/static/css/main.fbc021b9.css.map",
+    "main.fddb2d44.css.map": "/static/css/main.fddb2d44.css.map",
     "main.a92047c2.js.map": "/static/js/main.a92047c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbc021b9.css",
+    "static/css/main.fddb2d44.css",
     "static/js/main.a92047c2.js"
   ]
 }
