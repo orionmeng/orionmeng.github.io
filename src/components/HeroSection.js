@@ -1,30 +1,42 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
 import './HeroSection.css';
 
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
+      <h1>Hello!</h1>
+      <h2>I am a software developer with a Bachelor's degree in Computer Science.</h2>
+      <h2>I mostly do web development and enjoy solving complex problems.</h2>
+      <h2>I currently tutor kids at a math center called Mathnasium!</h2>
+
       <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
+        <a
+          className='hero-btn hero-btn--full'
+          href='https://valorantskintracker.vercel.app/'
+          target='_blank'
+          rel='noopener noreferrer'
         >
-          GET STARTED
-        </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          WATCH TRAILER <i className='far fa-play-circle' />
-        </Button>
+          My Latest Project
+        </a>
+        <div className='hero-btns-row'>
+          <a
+            className='hero-btn'
+            href='https://github.com/orionmeng'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            GitHub
+          </a>
+          <a
+            className='hero-btn'
+            href='/resume.pdf'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Resume
+          </a>
+        </div>
       </div>
     </div>
   );

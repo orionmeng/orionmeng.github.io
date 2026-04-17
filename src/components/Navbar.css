@@ -12,16 +12,16 @@
 
 .navbar-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 80px;
-  max-width: 1500px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .navbar-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -40,9 +40,8 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 60vw;
   justify-content: end;
-  margin-right: 2rem;
+  margin-left: auto;
 }
 
 .nav-item {
@@ -75,7 +74,7 @@
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 240px) {
   .NavbarItems {
     position: relative;
   }

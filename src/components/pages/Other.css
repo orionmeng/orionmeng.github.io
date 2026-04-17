@@ -1,0 +1,64 @@
+.other-hero {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.other-hero video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.other-hero h1 {
+  color: #fff;
+  font-size: 70px;
+  margin-bottom: 32px;
+}
+
+.other-hero__btns {
+  display: flex;
+  gap: 24px;
+}
+
+.other-hero__btn {
+  padding: 12px 40px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.3s ease-out;
+}
+
+.other-hero__btn:hover {
+  background: #fff;
+  color: #242424;
+}
+
+@media screen and (max-width: 960px) {
+  .other-hero h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .other-hero h1 {
+    font-size: 50px;
+  }
+
+  .other-hero__btn {
+    padding: 10px 28px;
+    font-size: 16px;
+  }
+}
