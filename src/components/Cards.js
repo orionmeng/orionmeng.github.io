@@ -11,12 +11,12 @@ function Cards() {
             <CardItem
               src='images/valorant_logo.jpg'
               text='VALORANT'
-              path='https://tracker.gg/valorant/profile/riot/onion%23wisc/overview'
+              path='https://tracker.gg/valorant/profile/riot/onion%23mango/overview?platform=pc&playlist=competitive'
             />
             <CardItem
               src='images/tft_logo.jpg'
               text='TFT'
-              path='https://lolchess.gg/profile/na/onion-wisc/set9.5'
+              path='https://lolchess.gg/profile/na/onion-mango/set9.5'
             />
           </ul>
         </div>
